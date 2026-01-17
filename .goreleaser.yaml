@@ -44,9 +44,12 @@ brews:
     # GitHub/GitLab repository to push the formula to
     repository:
       # Repository owner template. (templateable)
-      owner: hoehwa
+      owner: hotssi
       # Repository name. (templateable)
-      name: homebrew-mungu
+      name: ecosystem
+
+    # Directory inside the repository to put the formula.
+    directory: infra/brew
 
     # Git author used to commit to the repository.
     # Defaults are shown.
